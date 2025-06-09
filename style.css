@@ -1,0 +1,127 @@
+.introduction{
+    display: flex;
+    background-image: url(./background2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    justify-content: center;
+    align-items:flex-start;
+    padding-top: 80px;
+    text-align: center;
+}
+.introduction>.content>h1{
+    font-size: 90px;
+    font-family:    Savate , serif;
+    font-weight: 700;
+    color: #6e954d;
+}
+.introduction>.content>h2{
+    font-size: 32px;
+    font-family: Pacifico , serif;
+    color: #66a2b7
+}
+.profile-img {
+  height: 300px;
+  border-radius: 50%;
+}
+#second-part h1{
+    color: #6e954d !important;
+    font-size: 60px; 
+    font-weight: 700;
+    font-family: "Roboto Condensed" , serif;
+}
+#second-part p{
+    font-size: 23px;
+    font-weight: 400;
+    font-family: "Roboto Condensed" , serif;
+  
+}
+#my-skills h1{
+    color: #6e954d;
+    font-size: 60px; 
+    font-weight: 700;
+    font-family: "Roboto Condensed" , serif;
+    text-align: center;
+}
+
+#my-skills .container{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 5fr;
+    justify-content: center;
+    align-items: center;
+}
+#my-skills .image1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 10;
+}
+#my-skills .heading1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color: #6e954d;
+    font-size: 35px; 
+    font-weight: 700;
+    font-family: "Roboto Condensed" , serif;
+}
+#my-skills .description1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 10;
+    font-family: "Roboto Condensed" , serif;
+    font-size: 23px;
+    font-weight: 400;
+}
+#my-skills .image2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 10;
+    grid-row-end:20;
+}
+#my-skills .heading2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 10;
+    grid-row-end: 11;
+    color: #6e954d;
+    font-size: 35px; 
+    font-weight: 700;
+    font-family: "Roboto Condensed" , serif;
+}
+#my-skills .description2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 11;
+    grid-row-end: 20;
+    font-family: "Roboto Condensed" , serif;
+    font-weight: 400;
+    font-size: 23px;
+
+}
+#contact h1{
+    color: #6e954d;
+    font-size: 60px; 
+    font-weight: 700;
+    font-family: "Roboto Condensed" , serif;
+    text-align: center;
+}
+#contact p{
+    color: black;
+    font-family: "Roboto Condensed" , serif;
+    font-weight: 400;
+    font-size: 23px;
+}
+#footer{
+    background-color: #c8e9aa;
+    font-family: "Roboto Condensed" , serif;
+    }
+#footer .nav-item{
+    font-size: 23px;
+    font-weight: 400;
+    font-family: "Roboto Condensed" , serif;
+}
